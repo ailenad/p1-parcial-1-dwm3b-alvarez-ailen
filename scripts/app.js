@@ -27,7 +27,7 @@ btnConsultar.addEventListener('click', function() {
                 <img src="${pokemonImgeURL}" class="card-img-top" alt="${pokemonNombre}"/>
                 <div class="card-body">
                     <h5 class="card-title text-uppercase">${pokemonNombre}</h5>
-                   <button><a href="detalle.html?id=${pokemonId}&nombre=${pokemonNombre}" class="btnDetalles"> Ver Detalles </a> </button>
+                   <a href="detalle.html?id=${pokemonId}&nombre=${pokemonNombre}" class="btnDetalles"> Ver Detalles </a> 
                 </div>
                 </div>`;
 

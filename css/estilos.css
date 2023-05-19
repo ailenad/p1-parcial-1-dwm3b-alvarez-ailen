@@ -37,10 +37,12 @@ button:hover{
     background-color: #4c6ba8;
 }
 .btnDetalles{
+  
     background-color: #5e99c4;
     color: white;
     text-decoration: none;
-    
+    border-radius: 25px;
+    padding: 5px;
    
 }
 .btnDetalles:hover{
